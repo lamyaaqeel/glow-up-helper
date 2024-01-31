@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:background="#00FFFFFF"
+        android:onClick="si"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/b3" />
+
+
+    <Button
+        android:id="@+id/skin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="skin1"
+        android:text="what is the SKIN TYPE?"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="402dp"
+        android:layout_height="96dp"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="#C4687F"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <Button
+        android:id="@+id/skin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="skin2"
+        android:text="Why should I know my skin type"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/s2"
+        android:layout_width="400dp"
+        android:layout_height="89dp"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="#C4687F"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <Button
+        android:id="@+id/skin3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="skin3"
+        android:text=" How Do I know my skin type?"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/s3"
+        android:layout_width="412dp"
+        android:layout_height="222dp"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="#C4687F"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/gotoskininfo"
+            android:layout_width="131dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:onClick="goinfoskin"
+            android:text="more info..."
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

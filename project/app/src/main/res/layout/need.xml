@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="#00FFFFFF"
+        android:baselineAligned="false"
+        android:onClick="ni"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/b4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EDE0E4"
+        android:fontFamily="serif"
+        android:text="fill the following to know your daily need of calories"
+        android:textAlignment="center"
+        android:textColor="#C4687F"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/ageb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="age"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#C4687F"
+        android:textIsSelectable="false"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="170dp"
+        app:helperText="*requierd"
+        app:helperTextTextColor="#E81212"
+        />
+
+    <EditText
+        android:id="@+id/heightb"
+        android:hint="height"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#C4687F"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="226dp"
+        app:helperText="*requierd"
+        app:helperTextTextColor="#E81212"/>
+
+    <EditText
+        android:id="@+id/weightb"
+        android:hint="weight"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#C4687F"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="281dp"
+        app:helperText="*requierd"
+        app:helperTextTextColor="#E81212"/>
+
+
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:onClick="calcu"
+        android:text="calculate"
+        android:textColor="#973A51"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#873348"
+        android:textColor="#EDE0E4"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="caldiv"
+        android:shadowColor="#1B2663"
+        android:text="*what should i do after knowing my daily need of calories?"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/after"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDE0E4"
+        android:fontFamily="serif"
+        android:textColor="#873348" />
+
+</LinearLayout>
+

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">glow up helper</string>
+    <string name="idk"> what is glow up helper</string>
+    <string name="undertones">undertones</string>
+    <string name="hair">hair</string>
+    <string name="skin">skin</string>
+    <string name="need">need</string>
+    <string name="tips">tips</string>
+    <string name="exit">exit</string>
+    <string name="start">start</string>
+    <string name="about">about</string>
+    <string name="what_is_glow_up_helper">what is glow up helper</string>
+    <string name="lebal">lebal</string>
+
+</resources>

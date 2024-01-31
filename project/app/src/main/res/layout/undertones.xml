@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:background="#00FFFFFF"
+        android:onClick="ui"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/b1" />
+
+    <Button
+        android:id="@+id/btone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="undertone"
+        android:text="what is the UNDERTONE?"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextView
+        android:id="@+id/whatisundertone"
+        android:layout_width="402dp"
+        android:layout_height="99dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#C4687F"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <Button
+        android:id="@+id/under2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="undertone2"
+        android:text="Why should I know my skin undertone"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/under22"
+        android:layout_width="400dp"
+        android:layout_height="117dp"
+        android:text=""
+        android:textColor="#C4687F"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <Button
+        android:id="@+id/under3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="undertone3"
+        android:text=" How Do I know my skin undertone?"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/under33"
+        android:layout_width="412dp"
+        android:layout_height="93dp"
+        android:text=""
+        android:textColor="#C4687F"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vv" />
+
+
+</LinearLayout>

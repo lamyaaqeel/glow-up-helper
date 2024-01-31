@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#00FFFFFF"
+        android:onClick="sii"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/b3" />
+
+
+    <Button
+        android:id="@+id/normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="normal"
+        android:text="normal skin"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextView
+        android:id="@+id/normal1"
+        android:layout_width="402dp"
+        android:layout_height="82dp"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="#C4687F"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <Button
+        android:id="@+id/dry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dry"
+        android:text="dry skin"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/dry1"
+        android:layout_width="400dp"
+        android:layout_height="81dp"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="#C4687F"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <Button
+        android:id="@+id/oil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="oil"
+        android:text="oily skin"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/oil1"
+        android:layout_width="412dp"
+        android:layout_height="80dp"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="#C4687F"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <Button
+        android:id="@+id/comb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="comb"
+        android:text="combination skin"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/comb1"
+        android:layout_width="412dp"
+        android:layout_height="72dp"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="#C4687F"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="555dp" />
+    <Button
+        android:id="@+id/sens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sens"
+        android:text="sensitive skin"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/sens1"
+        android:layout_width="412dp"
+        android:layout_height="222dp"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="#C4687F"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="555dp" />
+</LinearLayout>
